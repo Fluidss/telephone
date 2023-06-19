@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'minusamix/telephone',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'bramus/router' => array(
+            'pretty_version' => '1.6.1',
+            'version' => '1.6.1.0',
+            'reference' => '55657b76da8a0a509250fb55b9dd24e1aa237eba',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bramus/router',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'minusamix/telephone' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-curl-class/php-curl-class' => array(
+            'pretty_version' => '9.17.1',
+            'version' => '9.17.1.0',
+            'reference' => '5672725591a12595beecd54b74409b04a3daa0b5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-curl-class/php-curl-class',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
